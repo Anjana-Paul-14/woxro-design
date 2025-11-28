@@ -1,9 +1,9 @@
-import Hero from "./components/Hero";
+import StickyScene from "./components/Hero";
 
 export default function Home() {
-return (
-<>
-<Hero/>
-</>
-);
+  return (
+    <main>
+      <StickyScene />
+    </main>
+  );
 }
